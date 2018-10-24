@@ -74,8 +74,8 @@ end
 if __FILE__ == $0
    write_bl_disk() 
 
-  # update_rules(get_addresses()) 
+   update_rules(get_addresses()) 
 
-  # call_reload()
-  # show_status() 
+   call_reload()
+   show_status() 
 end 
