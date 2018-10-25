@@ -90,10 +90,8 @@ def write_bl_disk()
 end
 
 
-
 if __FILE__ == $0
    load_hash()
-   print $existing_rules 
    write_bl_disk() 
    update_rules(get_addresses())
    save_hash() 
